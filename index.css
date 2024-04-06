@@ -1,0 +1,45 @@
+<style>
+      body {
+        background: black;
+      }
+      .green {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 25%;
+        height: 25%;
+        background: rgb(0,255,0);
+      }
+      .red {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 25%;
+        height: 25%;
+        background: rgb(255,0,0);
+      }
+      .yellow {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 25%;
+        height: 25%;
+        background: rgb(255,255,0);
+      }
+      .blue {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 25%;
+        height: 25%;
+        background: rgb(0,0,255);
+      }
+      .center {
+        position: absolute;
+        border-radius: 100%;
+        background: black;
+        left:25%;
+        width: 25%;
+        height: 25%;
+        top:25%;
+      }
