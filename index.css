@@ -6,40 +6,40 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 25%;
-        height: 25%;
-        background: rgb(0,255,0);
+        width: 50%;
+        height: 50%;
+        background: green;
       }
       .redbutton {
         position: absolute;
         top: 0;
         right: 0;
-        width: 25%;
-        height: 25%;
-        background: rgb(255,0,0);
+        width: 50%;
+        height: 50%;
+        background: red;
       }
       .yellowbutton {
         position: absolute;
         bottom: 0;
         left: 0;
-        width: 25%;
-        height: 25%;
-        background: rgb(255,255,0);
+        width: 50%;
+        height: 50%;
+        background: yellow;
       }
       .bluebutton {
         position: absolute;
         bottom: 0;
         right: 0;
-        width: 25%;
-        height: 25%;
-        background: rgb(0,0,255);
+        width: 50%;
+        height: 50%;
+        background: blue;
       }
       .centerarea {
         position: absolute;
         border-radius: 100%;
         background: black;
-        left:25%;
-        width: 25%;
-        height: 25%;
-        top:25%;
+        left:50%;
+        width: 50%;
+        height: 50%;
+        top:50%;
       }
