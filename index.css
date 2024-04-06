@@ -2,7 +2,7 @@
       body {
         background: black;
       }
-      .green {
+      .greenbutton {
         position: absolute;
         top: 0;
         left: 0;
@@ -10,7 +10,7 @@
         height: 25%;
         background: rgb(0,255,0);
       }
-      .red {
+      .redbutton {
         position: absolute;
         top: 0;
         right: 0;
@@ -18,7 +18,7 @@
         height: 25%;
         background: rgb(255,0,0);
       }
-      .yellow {
+      .yellowbutton {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -26,7 +26,7 @@
         height: 25%;
         background: rgb(255,255,0);
       }
-      .blue {
+      .bluebutton {
         position: absolute;
         bottom: 0;
         right: 0;
@@ -34,7 +34,7 @@
         height: 25%;
         background: rgb(0,0,255);
       }
-      .center {
+      .centerarea {
         position: absolute;
         border-radius: 100%;
         background: black;
