@@ -1,0 +1,52 @@
+body {
+    background: grey;
+  }
+  .container {
+    width: 50vw;
+    height: 50vw;
+    position: relative;
+    margin: auto;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  .button {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  #green {
+    top: 0;
+    left: 0;
+    background: rgb(0,255,0);
+  }
+  #red {
+    top: 0;
+    right: 0;
+    background: rgb(255,0,0);
+  }
+  #yellow {
+    bottom: 0;
+    left: 0;
+    background: rgb(255,255,0);
+  }
+  #blue {
+    bottom: 0;
+    right: 0;
+    background: rgb(0,0,255);
+  }
+  #start {
+    position: absolute;
+    border-radius: 100%;
+    background: black;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    cursor: pointer;
+  }
+  .active {
+    opacity: 1;
+  }
