@@ -50,3 +50,15 @@ body {
   .active {
     opacity: 1;
   }
+  #myCanvas {
+    position: absolute;
+    border-radius: 100%;
+    background: black;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    cursor: pointer;
+    z-index: 1; /* Bring the canvas in front of other elements */
+}
